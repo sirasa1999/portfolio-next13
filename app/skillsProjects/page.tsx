@@ -1,8 +1,9 @@
 import React from 'react'
+import SkillsProjectsSection from "@/components/SkillsProjectsSection";
 
 function skillsProjects() {
   return (
-    <div>skillsProjects</div>
+    <SkillsProjectsSection></SkillsProjectsSection>
   )
 }
 
