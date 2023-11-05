@@ -1,9 +1,7 @@
-import Image from 'next/image'
+import HeadSection from "@/components/HeadSection";
 
 export default function Home() {
   return (
-    <main>
-      
-    </main>
+    <HeadSection></HeadSection>
   )
 }
