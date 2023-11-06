@@ -1,8 +1,9 @@
+import CertificatesSection from '@/components/CertificatesSection '
 import React from 'react'
 
 function certificates() {
   return (
-    <div>certificates</div>
+    <CertificatesSection></CertificatesSection>
   )
 }
 
