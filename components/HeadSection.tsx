@@ -37,7 +37,7 @@ const HeadSection = () => {
                 </div>
                 <div className="md:mt-2 md:w-3/5">
                     <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl text-neutral-600">
-                        Namaste,<br /> I'm Sirasa Tuladhar!
+                        Namaste,<br /> I&apos;m Sirasa Tuladhar!
                     </h1>
                     <p className="text-lg mt-4 mb-6 md:text-2xl">
                         I am a {" "}
