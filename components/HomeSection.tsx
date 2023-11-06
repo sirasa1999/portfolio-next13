@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
-const HeadSection = () => {
+const HomeSection = () => {
     const handleDownloadResume = () => {
         const pdfFilePath = 'sirasaResume.pdf';
         const link = document.createElement('a');
@@ -26,14 +26,12 @@ const HeadSection = () => {
                         height={325}
                         className="rounded-full shadow-2xl fill-none"
                     />
-                    <div className="flex text-neutral-500 text-center items-center justify-center my-2">
-                        <a href="https://www.linkedin.com/in/sirasa/" target="_blank" rel="noopener noreferrer" className="mx-4">
-                            <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
-                        <a href="https://github.com/sirasa1999" target="_blank" rel="noopener noreferrer" className="mx-4">
-                            <FontAwesomeIcon icon={faGithub} />
-                        </a>
-                    </div>
+                    <button
+                        onClick={handleDownloadResume}
+                        className="text-neutral-100 font-semibold px-6 py-3 my-3 ml-10 bg-purple-600 rounded shadow hover:bg-purple-700"
+                    >
+                        Download Resume
+                    </button>
                 </div>
                 <div className="md:mt-2 md:w-3/5">
                     <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl text-neutral-600">
@@ -47,16 +45,18 @@ const HeadSection = () => {
                         from Kathmandu, Nepal with knowledge of programming, highly interested in the ﬁeld of learning different
                         programming languages and looking for a wholesome environment for growth as a skilled developer.
                     </p>
-                    <button
-                        onClick={handleDownloadResume}
-                        className="text-neutral-100 font-semibold px-6 py-3 mb-6 bg-purple-600 rounded shadow hover:bg-purple-700"
-                    >
-                        Download Resume
-                    </button>
+                    <div className="flex text-neutral-500 text-center items-center justify-center md:justify-start my-2">
+                        <a href="https://www.linkedin.com/in/sirasa/" target="_blank" rel="noopener noreferrer" className="mx-4">
+                            <FontAwesomeIcon icon={faLinkedin} />
+                        </a>
+                        <a href="https://github.com/sirasa1999" target="_blank" rel="noopener noreferrer" className="mx-4">
+                            <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
     );
 };
 
-export default HeadSection;
+export default HomeSection;

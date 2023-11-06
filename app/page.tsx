@@ -1,7 +1,7 @@
-import HeadSection from "@/components/HeadSection";
+import HomeSection from "@/components/HomeSection";
 
 export default function Home() {
   return (
-    <HeadSection></HeadSection>
+    <HomeSection></HomeSection>
   )
 }
