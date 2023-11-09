@@ -29,9 +29,9 @@ const AboutSection = () => {
                     <hr className="w-6 h-1 mx-auto my-1 bg-purple-500 border-0 rounded"></hr>
                 </h1>
 
-                <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
-                    <div className="md:w-1/2 ">
-                        <h1 className="text-center text-xl text-purple-800 font-semibold mb-6 md:text-left">
+                <div className="grid md:grid-cols-2">
+                    <div className="md:pl-32 p-2">
+                        <h1 className="text-center text-xl text-purple-800 font-semibold my-6 md:text-left">
                             Personal Details
                         </h1>
                         <table className="table-auto">
@@ -51,7 +51,7 @@ const AboutSection = () => {
                             </tbody>
                         </table>
                     </div>
-                    <div className="md:w-1/2 ">
+                    <div className=" p-2">
                         <h1 className="text-center text-xl text-purple-800 font-semibold my-6 md:text-left">
                             Education
                         </h1>
@@ -73,8 +73,8 @@ const AboutSection = () => {
                             </tbody>
                         </table>
                     </div>
-                    <div className="text-center md:w-1/2 md:text-left">
-                        <h1 className="text-xl text-purple-800 font-semibold mb-6">Interests</h1>
+                    <div className="text-center md:text-left md:pl-32 p-2">
+                        <h1 className="text-xl text-purple-800 font-semibold my-6 md:pt-16">Interests</h1>
                         <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
                             {interests.map((item, idx) => {
                                 return (
@@ -88,8 +88,8 @@ const AboutSection = () => {
                             })}
                         </div>
                     </div>
-                    <div className="text-center md:w-1/2 md:text-left">
-                        <h1 className="text-xl text-purple-800 font-semibold mb-6">Languages</h1>
+                    <div className="text-center md:text-left p-2">
+                        <h1 className="text-xl text-purple-800 font-semibold my-6 md:pt-16">Languages</h1>
                         <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
                             {languages.map((item, idx) => {
                                 return (

@@ -28,7 +28,7 @@ const HomeSection = () => {
                     />
                     <button
                         onClick={handleDownloadResume}
-                        className="text-neutral-100 font-semibold px-6 py-3 my-3 ml-10 bg-purple-600 rounded shadow hover:bg-purple-700"
+                        className="text-neutral-100 font-semibold px-6 py-3 my-3 ml-5 md:ml-10 bg-purple-600 rounded shadow hover:bg-purple-700"
                     >
                         Download Resume
                     </button>
@@ -37,7 +37,7 @@ const HomeSection = () => {
                     <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl text-neutral-600">
                         Namaste,<br /> I&apos;m Sirasa Tuladhar!
                     </h1>
-                    <p className="text-lg mt-4 mb-6 md:text-2xl">
+                    <p className="text-lg mt-4 md:text-2xl">
                         I am a {" "}
                         <span className="font-semibold text-purple-600">
                             Software Engineer{" "}
