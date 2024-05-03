@@ -46,10 +46,10 @@ const HomeSection = () => {
                         programming languages and looking for a wholesome environment for growth as a skilled developer.
                     </p>
                     <div className="flex text-neutral-500 text-center items-center justify-center md:justify-start my-2">
-                        <a href="https://www.linkedin.com/in/sirasa/" target="_blank" rel="noopener noreferrer" className="mx-4">
+                        <a href="https://www.linkedin.com/in/sirasa/" target="_blank" rel="noopener noreferrer" className="mx-4" aria-label="LinkedIn">
                             <FontAwesomeIcon icon={faLinkedin} />
                         </a>
-                        <a href="https://github.com/sirasa1999" target="_blank" rel="noopener noreferrer" className="mx-4">
+                        <a href="https://github.com/sirasa1999" target="_blank" rel="noopener noreferrer" className="mx-4" aria-label="Github">
                             <FontAwesomeIcon icon={faGithub} />
                         </a>
                     </div>
