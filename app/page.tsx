@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <html>
       <head>
-        <meta name="description" content="Sirasa's Portfolio"/>
-        <title>Sirasa's Portfolio</title>
+        <meta name="description" content="Sirasa&apos;s Portfolio"/>
+        <title>Sirasa&apos;s Portfolio</title>
       </head>
       <body>
       <HomeSection></HomeSection>
